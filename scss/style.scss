@@ -1,0 +1,84 @@
+// Color pallet
+$primary: #283593;
+$primary-light: #5f5fc4;
+$secondary: #80deea;
+$secondary-light: #b4ffff;
+$table-striped-bg: rgba($secondary, 0.7); // Change stripped table background color
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+	@extend .text-dark;
+}
+
+// Navbar
+.navbar {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.navbar .navbar-nav {
+	margin-left: auto;
+}
+
+.nav-link-custom {
+	@extend .nav-link;
+	@extend .px-4;
+}
+
+.navbar-dark .navbar-nav a.nav-link-custom {
+	@extend .text-light;
+	font-size: medium;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav a.nav-link-custom:hover {
+	font-size: medium;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: $primary-light;
+}
+
+// Banner
+.banner {
+	@extend .mt-4;
+	border-radius: 15px;
+}
+
+.banner img {
+	width: 100%;
+}
+
+// Main Sections
+.main-content {
+	@extend .my-5;
+	@extend .p-4;
+	scroll-margin-top: 100px; // Scroll 100px above link to account for navbar height
+}
+
+.sub-content {
+	@extend .py-4
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: bold;
+}
+
+h1 {
+	@extend .mb-5;
+	border-bottom-style: solid;
+	border-bottom-style: medium;
+	border-bottom-color: $secondary;
+}
+
+h2, h3, h4 {
+	@extend .mb-4;
+}
+
+// Grid
+.grid-item {
+	@extend .col-sm;
+	@extend .p-4;
+	text-align: center;
+}

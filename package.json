@@ -1,0 +1,14 @@
+{
+  "name": "website-template",
+  "version": "1.0.0",
+  "description": "A simple, responsive website template",
+  "main": "",
+  "scripts": {
+    "sass": "./node_modules/node-sass/bin/node-sass -w scss/ -o css/ --recursive"
+  },
+  "author": "Michalis Vardoulakis",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}
