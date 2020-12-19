@@ -9,7 +9,7 @@
   "author": "Michalis Vardoulakis",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^4.5.3",
+    "bootstrap": "^5.0.0-beta1",
     "sass": "^1.30.0"
   }
 }

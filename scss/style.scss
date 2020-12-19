@@ -48,17 +48,14 @@ body {
 
 .banner img {
 	width: 100%;
+	border-radius: 15px;
 }
 
 // Main Sections
 .main-content {
 	@extend .my-5;
 	@extend .p-4;
-	scroll-margin-top: 100px; // Scroll 100px above link to account for navbar height
-}
-
-.sub-content {
-	@extend .py-4
+	scroll-margin-top: 50px; // Scroll 100px above link to account for navbar height
 }
 
 h1, h2, h3, h4, h5 {
