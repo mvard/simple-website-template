@@ -1,7 +1,7 @@
 {
-  "name": "website-template",
+  "name": "simple-website-template",
   "version": "1.0.0",
-  "description": "A simple, responsive website template",
+  "description": "A simple, responsive website template using bootstrap",
   "main": "",
   "scripts": {
     "sass": "sass scss/style.scss css/style.css"
